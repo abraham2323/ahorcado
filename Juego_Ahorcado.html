@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html  lang="es">
+<head> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="author" content="Profesor JN">
+ <meta name="description" content="Ejemplo de uso HTML CSS JAVASCRIPT">     
+ <link href="ahorcado.png" type="image/x-icon" rel="shortcut icon">
+ <link rel="stylesheet" type="text/css" href="Style_Ahorcado.css"> 
+ <title> Juego del ahorcado</title>
+ <h1> Juego del Ahorcado </h1> 
+ <style>
+   label{
+    display: block();
+	float:center;
+	width:100px;
+	}
+ </style> 
+</head>
+  <body id="Principal">  
+    <div class ="mono" id="visual">
+         <img  id="Ahorcado" src="Ahorcado1.jpg">
+		 <label for="Visual" id="Visual" ></label><br>
+		 <label hidden for="Vidas" id="Vidas" >0</label><br>
+		 <label hidden for="Descubre" id="Descubre" ></label><br><br>
+		 <label hidden for="Palabra" id="Palabra" >PALABRA</label><br><br>
+	     <button onclick='BuscarPalabra()'> Buscar Una Palabra</button><br>
+	</div>
+	<div class="modal fade" id="exampleModal" tabindex="-1">	
+	       <div class="modal-body">
+               <form action="" id="Formulario1">    
+ 	                 <label for="Letra">Ingrese una Letra</label>
+	                 <input type="text" id='Letra' required maxlength="1" pattern="[A-Za-z]" title="Solo se pueden ingresar letras"><br><br>	 
+	                 <center><input type="submit" value="Jugar"></center>		
+               </form> 
+               <div id='Mensaje'></div>			   
+           </div>			  
+    </div>	  
+  <script src = 'Ahorcado.js'></script>  
+  <script src="BuscarPalabra.js"></script>
+  </body>
+</html>

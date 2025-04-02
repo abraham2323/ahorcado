@@ -1,0 +1,40 @@
+<style media="screen">
+	body {
+		font-family: 'Lato', sans-serif !important;			
+	}	      
+   	
+	h1 {
+		font-family: "fantasy" !important;
+	    font-size: 50px;
+	    color: #294A45;
+	    font-weight: bolder;
+		text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(0,0,0,0.5),
+             4px 4px 5px rgba(0,0,0,0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+	}
+
+	 input#Letra {
+		font-size: 30px; 
+        max-width: 30px;
+		text-transform: uppercase;
+		cursor: pointer;
+    }
+	
+	label {
+		font-size: 20px; 
+        color: #024A86;
+		font-weight: bolder;
+    }
+	div#exampleModal .modal-body {
+	    min-height: 35px;
+	    background-color:#F9EBEA;	
+	    max-width: 200px;
+	    margin: 0 auto;		
+		margin-left: 200px;	
+		font-weight: bolder;
+        border: 3px solid #707070;	
+        border-radius: 10px;        		
+	}
+   
+   </style>  
